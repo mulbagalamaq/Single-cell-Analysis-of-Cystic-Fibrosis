@@ -16,25 +16,6 @@ Cystic fibrosis is a genetic disorder that affects the lungs and other organs. T
 3. **Differential Expression**: Identify differentially expressed genes (DEGs) and protein-gene correlations.
 4. **Visualization**: Generate publication-ready plots, including dot plots and bar graphs, to summarize findings.
 
----
-
-## Repository Structure
-Single-cell-Analysis-of-Cystic-Fibrosis/
-├── data/ # Input data files
-│ ├── chunk10_metadata.csv # Metadata for single-cell data
-│ ├── chunk10_counts.npz # Count matrix for single-cell data
-├── model_outputs/ # Outputs from VAE models
-│ ├── model_output_2024-04-17-19-45-31.npz
-│ ├── model_output_2024-04-17-20-34-07.npz
-├── results/ # Analysis outputs
-│ ├── graphs/ # Visualizations
-│ │ ├── dot_plot_minmax.png
-│ │ ├── Bar_Graphs_minmax.png
-│ ├── distances.csv # KNN distance metrics
-├── scripts/ # Analysis scripts
-│ ├── cystic_fibrosis_analysis.py # Main analysis script
-├── README.md # Project documentation
-
 
 ---
 
